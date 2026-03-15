@@ -7,10 +7,10 @@ class Tidymac < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/therealmazin/tidymac/releases/download/v#{version}/tidymac-v#{version}-darwin-arm64.tar.gz"
-      sha256 "PLACEHOLDER_ARM64"
+      sha256 "48a0ccc0590edae81f4c81ff6e6b8c7f496368c2c655ffbbedb42e8f0b252ed8"
     elsif Hardware::CPU.intel?
       url "https://github.com/therealmazin/tidymac/releases/download/v#{version}/tidymac-v#{version}-darwin-x64.tar.gz"
-      sha256 "PLACEHOLDER_X64"
+      sha256 "3c02c32fb72eb388c1729d9cc4c808cfd9876d27245ac8d98fcbe81b3c73bae2"
     end
   end
 
